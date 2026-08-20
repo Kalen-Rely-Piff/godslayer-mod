@@ -1,0 +1,15 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="examplemod"
+version="1.0.0"
+displayName="战神之刃"
+authors="You"
+description="一把自带顶级附魔的神剑"
+[[dependencies.examplemod]]
+    modId="neoforge"
+    mandatory=true
+    versionRange="[20,)"
+    ordering="NONE"
+    side="BOTH"
